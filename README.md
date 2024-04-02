@@ -1,8 +1,29 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Mateo Pérez - Portfolio
+
+This project contains my personal portfolio website created with Next.js.
+
+## Technologies
+
+This portfolio is built with the following technologies:
+
+- Next.js: React framework for efficient web app development.
+- React: JavaScript library for building user interfaces.
+- TypeScript: Adds optional static typing for cleaner JavaScript.
+- HTML & CSS: Web page foundation for structure and styling.
+- JavaScript: Additional interactivity or client-side functionality.
+- Git: Version control system for tracking changes and collaboration.
+- ESLint: Enforces code style and catches potential errors.
 
 ## Getting Started
 
-First, run the development server:
+Navigate to the project directory and install the required dependencies:
+
+```bash
+cd mateo-perez-portfolio
+npm install
+```
+
+Start the development server to view my portfolio locally:
 
 ```bash
 npm run dev
@@ -10,25 +31,18 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Linting
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+This project uses ESLint with the next/core-web-vitals configuration for code linting. This helps ensure code quality and adherence to best practices. You can run the linter using the following command:
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+```bash
+npm run lint
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## License
 
-## Learn More
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
-To learn more about Next.js, take a look at the following resources:
+## Contact
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+If you have any questions or want to connect, feel free to reach out to me at [pcristopher593@gmail.com](mailto:pcristopher593@gmail.com)
