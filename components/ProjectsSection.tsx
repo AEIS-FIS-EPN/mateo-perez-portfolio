@@ -8,14 +8,14 @@ const projects = [
     {
         name: 'Open Attestation Verification Application',
         description: 'Project developed for CSIRT. The application allows users to verify Open Attestation documents using the Open Attestation API. The application was developed using Next.js, Tailwind CSS, and JavaScript.',
-        image: '/images/project.png',
+        image: '/oa-verification-menu.png',
         github: 'https://github.com/matucho01/oa-verification',
         link: 'https://github.com/matucho01/oa-verification'
     },
     {
         name: 'Game Gather Client',
         description: 'Project developed for Advanced Web Applications course. The application allows users to be part of a community of gamers. Signups, logins, and user profiles are available. The application was developed using React, Tailwind CSS, and TypeScript.',
-        image: '/images/project.png',
+        image: '/gamegather-menu.png',
         github: 'https://github.com/matucho01/game-gather-client',
         link: 'https://github.com/matucho01/game-gather-client'
     }
